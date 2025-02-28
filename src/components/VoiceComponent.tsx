@@ -22,7 +22,7 @@ const VoiceChat = () => {
     onDisconnect: () => {
       console.log("Disconnected from ElevenLabs");
     },
-    onMessage: (message: any) => {
+    onMessage: (message: unknown) => {
       console.log("Received message:", message);
     },
     onError: (error: string | Error) => {
